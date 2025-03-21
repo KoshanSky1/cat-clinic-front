@@ -1,4 +1,5 @@
-# cat-clinic-front <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100">
+# cat-clinic-front
 
 Клиентская часть приложения cat-clinic-simulation.
 
@@ -31,7 +32,8 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 
 ### Инструкция по сборке и запуску приложения:
 
-[Серверная часть]((https://github.com/KoshanSky1/cat-clinic-simulation)) приложения реализована на Java 21 с использованием Spring Boot 3.
+[Серверная часть](https://github.com/KoshanSky1/cat-clinic-simulation) приложения реализована на Java 21 с использованием Spring Boot 3.
+
 Клиентская часть реализована на базе Angular 17.
 
 Запустить приложение можно двумя способами.
