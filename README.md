@@ -2,6 +2,7 @@
 
 # cat-clinic-front
 
+
 Клиентская часть приложения cat-clinic-simulation.
 
 Приложение имеет в своем составе Master-Detail таблицы.
