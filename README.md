@@ -1,7 +1,6 @@
-<div style="display: flex; align-items: center; gap: 15px;">
-  <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100" style="margin: 0;">
-  <h1 style="margin: 0; font-size: 24px; color: #0067a5;">#cat-clinic-front</h1>
-</div>
+<img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100" align="left"> 
+
+# cat-clinic-front
 
 Клиентская часть приложения cat-clinic-simulation.
 
