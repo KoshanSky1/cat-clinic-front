@@ -1,5 +1,4 @@
-
-# cat-clinic-front![1111 (1)](https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98)
+# cat-clinic-front! <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="300" height="200">
 
 Клиентская часть приложения cat-clinic-simulation.
 
@@ -20,18 +19,23 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 
 #### Стартовая страница приложения:
 ![2025-03-21_22-23-18](https://github.com/user-attachments/assets/87e14db1-741b-462e-8ead-917d06073902)
+
 #### Страница спецификаций к конкретному документу:
 ![2025-03-21_21-40-03](https://github.com/user-attachments/assets/37f0cf28-d656-4d48-861f-20762af57a4f)
+
 При попытке создать новый cчет с уже существующим номером или добавить к счету позицию с уже существующим наименованием пользователь получает сообщение об ошибке:
 ![2025-03-21_22-24-53](https://github.com/user-attachments/assets/44f499f7-1ed3-41c4-80c7-b496d63a129a)
+
 Ошибка, также, логируется в БД:
 ![2025-03-21_22-29-37](https://github.com/user-attachments/assets/3eabcb90-9b49-4b0a-88d6-feda89bef1da)
 
 ### Инструкция по сборке и запуску приложения:
+
 [Серверная часть]((https://github.com/KoshanSky1/cat-clinic-simulation)) приложения реализована на Java 21 с использованием Spring Boot 3.
 Клиентская часть реализована на базе Angular 17.
 
 Запустить приложение можно двумя способами.
+
 Первый способ:
 1. Запуск backend`a:
 • Предварительно создать БД POSTGRES не ниже версии 15 с именем "cat-clinic-db".
@@ -48,6 +52,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 Приложение будет доступно по адресу: http://localhost:4200
 
 Второй способ:
+
 1. Запуск backend`a:
 • Установить и запустить Docker.
 
