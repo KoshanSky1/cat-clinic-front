@@ -1,8 +1,7 @@
 <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100" align="left"> 
 
 # cat-clinic-front
-
-
+-------- 
 Клиентская часть приложения cat-clinic-simulation.
 
 Приложение имеет в своем составе Master-Detail таблицы.
