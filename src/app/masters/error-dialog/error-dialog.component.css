@@ -1,0 +1,30 @@
+.error-dialog {
+  background-color: #008bdb;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 15px;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+}
+
+.error-dialog h1 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.close-button {
+  color: #ED2939;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+  margin: 0;
+}
+
+.close-button:hover {
+  color: #cc0000;
+}

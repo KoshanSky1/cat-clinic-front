@@ -1,0 +1,193 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin: 2px 0 0 0;
+}
+
+.title {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 30px;
+  color: #0067a5;
+  text-align: left;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+.top-nav {
+  background-color: #0067a5;
+  margin: 0;
+}
+
+.top-nav-button {
+  background-color: #0067a5;
+  font-family: Verdana, Arial, sans-serif;
+  width: 100px;
+  height: 30px;
+  border-radius: 0;
+  padding: 5px;
+}
+
+h2 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #0067a5;
+}
+
+.stub h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 20px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.block-wrapper {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.block-wrapper h2 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+  color: #0067a5;
+  margin: 0;
+  font-weight: bold;
+}
+
+.detail-block {
+  position: relative;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 35px;
+}
+
+select.document-list {
+  width: 360px;
+  height: 400px;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+  overflow: auto;
+  scrollbar-color: #0067a5 #008bdb;
+  scrollbar-width: auto;
+}
+
+.document-list option {
+  padding: 8px 20px;
+  border-bottom: 1px solid #211f20;
+  background-color: white;
+  color: #211f20;
+}
+
+.document-list option:last-child {
+  border-bottom: none;
+}
+
+.document-list option:hover {
+  background-color: #008bdb;
+}
+
+.document-list option:disabled {
+  color: #211f20;
+  font-weight: bold;
+  background-color: white;
+}
+
+.close-button {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ED2939;
+}
+
+.close-button:hover {
+  color: #cc0000;
+}
+
+button {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  padding: 12px;
+  background: #0067a5;
+  color: white;
+  cursor: pointer;
+  white-space: pre-wrap;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #008bdb;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 90%;
+  max-width: 500px;
+  padding: 30px 30px 20px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal input {
+  width: 75%;
+  margin: auto;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
+}
+
+.modal button {
+  margin: auto;
+  width: 50%;
+}
+
+.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #0067a5;
+  padding: 0;
+  margin: 0;
+  height: 5px;
+}
