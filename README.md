@@ -1,4 +1,4 @@
-# cat-clinic-front! <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="300" height="200">
+# cat-clinic-front <img src="https://github.com/user-attachments/assets/f495987e-3146-44de-98bd-1a471aaedf98" alt="Логотип приложения: изображение сиамского кота" width="100" height="100">
 
 Клиентская часть приложения cat-clinic-simulation.
 
@@ -37,7 +37,9 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 Запустить приложение можно двумя способами.
 
 Первый способ:
+
 1. Запуск backend`a:
+   
 • Предварительно создать БД POSTGRES не ниже версии 15 с именем "cat-clinic-db".
 
 • Поменять в application.properties spring.datasource.username и spring.datasource.password на свои логин и пароль от Postgres.
@@ -47,6 +49,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 • Запустить приложение командой java java -jar cat-clinic-simulation-1.0.0-SNAPSHOT.jar.
 
 2. Запуск frontend`a:
+   
 • Запустить клиентскую часть командой ng serve.
 
 Приложение будет доступно по адресу: http://localhost:4200
@@ -54,6 +57,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 Второй способ:
 
 1. Запуск backend`a:
+   
 • Установить и запустить Docker.
 
 • Поменять в docker-compose.yaml POSTGRES_USER и POSTGRES_PASSWORD на свои логин и пароль от Postgres.
@@ -61,6 +65,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 • Запустить контейнер командой docker-compose up.
 
 2. Запуск frontend`a:
+   
 • Запустить клиентскую часть командой ng serve.
 
 Приложение будет доступно по адресу: http://localhost:4200
