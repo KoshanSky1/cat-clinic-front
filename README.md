@@ -3,7 +3,7 @@
 
 # cat-clinic-front
 
-Клиентская часть приложения cat-clinic-simulation.
+Клиентская часть веб-приложения cat-clinic-simulation.
 
 Приложение имеет в своем составе Master-Detail таблицы.
 
@@ -50,7 +50,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
 
    • Скомпилировать jar файл с помощью maven командой `mvn clean install`.
 
-   • Запустить приложение командой java java -jar cat-clinic-simulation-1.0.0-SNAPSHOT.jar.
+   • Запустить приложение командой java `java -jar cat-clinic-simulation-1.0.0-SNAPSHOT.jar`.
 
 2. Запуск frontend`a:
    
