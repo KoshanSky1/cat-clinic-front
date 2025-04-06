@@ -46,7 +46,7 @@ Java, Spring Boot, Hibernate, REST API, PostgreSQL, Angular, Apache Maven, Docke
    
    • Предварительно создать БД POSTGRES не ниже версии 15 с именем "cat-clinic-db".
 
-   • Поменять в application.properties spring.datasource.username и spring.datasource.password на свои логин и пароль от Postgres.
+   • Поменять в application.yaml spring.datasource.username и spring.datasource.password на свои логин и пароль от Postgres.
 
    • Скомпилировать jar файл с помощью maven командой `mvn clean install`.
 
